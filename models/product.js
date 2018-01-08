@@ -1,4 +1,5 @@
 'use strict'
+/* Este fichero contiene el Schema del modelo de producto */
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
