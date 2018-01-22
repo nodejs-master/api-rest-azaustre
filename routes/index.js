@@ -8,6 +8,8 @@ const userCtrl = require('../controllers/user')
 const auth = require('../middleware/auth')
 const api = express.Router()
 
+/* Rutas del proyecto desde master*/
+
 api.get('/product', productCtrl.getProducts)
 api.get('/product/:productId', productCtrl.getProduct)
 api.post('/product', productCtrl.saveProduct)
